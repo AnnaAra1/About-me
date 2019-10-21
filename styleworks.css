@@ -1,0 +1,17 @@
+html {
+    background-color: #99ff99;
+    text-align: center;
+    font-family: cursive;
+    padding: 30px;
+    margin: 20px;
+    border: solid 5px blue;
+}
+
+li {
+    font-size: 20px;
+    list-style-position: inside;
+}
+
+p {
+    font-size: 18px;
+}

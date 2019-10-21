@@ -1,0 +1,136 @@
+
+html {
+    font-family: cursive;
+    background-color:#99ff99;
+   }
+
+@media only screen and (max-width: 600px){
+    body {
+        background-color: aqua;
+        }
+}
+
+
+main {
+    font-family: cursive;
+    font-weight: 400;
+    font-size: 19px;
+    font-style: normal;
+    color: #111a00;
+    letter-spacing: 0em;
+    line-height: 1.5em;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 70%;  
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #111a00;
+    background: transparent;
+    letter-spacing: .1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0,0,0,0.9), 2px 2px 2px rgba(206,89,55,0);
+    color: #e0dfdc;
+    background: transparent;
+}
+
+h2 {
+    font-size: 1.5em;  
+    color: #ccff66;
+    text-shadow: 2px 2px 0 #111a00, 2px -2px 0 #111a00, -2px 2px 0 #111a00, -2px -2px 0 white, 2px 0px 0 #111a00, 0px 2px 0 white, -2px 0px 0 white, 0px -2px 0 #4074b5;
+}
+
+.navBarList {
+    list-style-type:none;
+    margin left: 50px;
+    padding: 0;
+}
+
+a.navBarList {
+    display: block;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    text-decoration: none;
+   
+    }
+
+/* Change the link color on hover*/
+a.navBarList:hover {
+    text-decoration: underline;
+    color: white;
+   } 
+ 
+#top {
+    float: left;
+    }
+
+.image {
+    position: relative;
+    margin: 35px 100px 30px 100px; 
+}
+
+#me {
+    border-color: black;
+    border-radius: 95px;  
+}  
+
+
+.special {
+    line-height: 1.7;
+    list-style-position:inside;
+    list-style-type: circle;
+    }
+
+table {
+    color:#111a00;
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    border: 6px solid #24943A;
+    background-color:#ccff66;
+    }
+
+td {
+    font-style: normal; 
+    font-style: italic;  
+    font-size: 15px;
+}
+
+th {
+    width: auto;
+    height: auto;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: match-parent;
+    color:#F0F0F0;
+    background-color: #ffffb3;
+    background: -moz-linear-gradient(top, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+    background: -webkit-linear-gradient(top,#5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+    background: linear-gradient(to bottom, #5baf6b 0%, #3a9e4d 66%, #24943A 100%);
+    border-bottom: 0px solid #444444;
+    border: 1px solid #24943A;
+    border-left: none;
+    padding: 3px 2px;
+    }
+th: first-child {
+    border-left: none;
+    }
+
+tr:nth-child(even) {
+    background-color: greenyellow;
+}
+
+footer {
+    text-align: center;
+    letter-spacing: 15px;
+    }
+p {
+    text-align: center;
+    font-style: italic;
+    letter-spacing: normal;
+    margin-top: 10px;
+    color: black;
+    }
